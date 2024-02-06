@@ -51,18 +51,7 @@ export const technologies =[
         text: 'Tailwind CSS',
         logo: 'bx bxl-tailwind-css',
     },
-    {
-        text: 'Github',
-        logo: 'bx bxl-github',
-    },
-    {
-        text: 'Docker',
-        logo: 'bx bxl-docker',
-    },
-    {
-        text: 'aws',
-        logo: 'bx bxl-aws',
-    },
+    
 ]
 
 export const projects = [
