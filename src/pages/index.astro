@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import ProfileImage from '../components/ProfileImage.astro';
+import Separator from '../components/Separator.astro';
+import About from '../components/About.astro';
+import Technologies from '../components/Technologies.astro';
+import Projects from '../components/Projects.astro';
+import Form from '../components/Form.astro';
+---
+
+<Layout title='Umer | Portfolio'>
+    <Navbar />
+    <main class="mt-16 scroll-mt-36" id="home">
+        <ProfileImage />
+        <Separator />
+        <About />
+        <Technologies />
+        <Projects />
+        <Form />
+    </main>
+</Layout>
